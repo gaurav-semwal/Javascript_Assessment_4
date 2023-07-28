@@ -202,7 +202,8 @@ call and a global execution context for the top of the code.
   
   ```
   # Question No.12 Make the following code work [1, 2, 3, 4, 5, 6] .shuffle();
-  *Code :
+  * Code :
+  
   ```js
             Array.prototype.shuffle = function() {
             for (let i = this.length - 1; i > 0; i--) {
@@ -215,10 +216,3 @@ call and a global execution context for the top of the code.
           array.shuffle();
           console.log(array);
 ```
-
-
-                   
-
-
-    
-
