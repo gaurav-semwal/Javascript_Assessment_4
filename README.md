@@ -214,5 +214,4 @@ call and a global execution context for the top of the code.
           };
           const array = [1, 2, 3, 4, 5, 6];
           array.shuffle();
-          console.log(array);
-```
+          console.log(array);   ```
